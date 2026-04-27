@@ -122,7 +122,7 @@ void median(DynamicArray* storage){
     float median;
 
     if(storage->length%2==0){
-        median = (storage->data[mididx]+storage->data[mididx-1])/2; 
+        median = (storage->data[mididx]+storage->data[mididx-1])/2.0; 
         printf("MEDIAN %.2f", median);
     } else if (storage->length%2==1)
     {
